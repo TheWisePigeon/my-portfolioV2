@@ -1,7 +1,13 @@
 import { sveltekit } from '@sveltejs/kit/vite';
-import type { UserConfig } from 'vite';
+import preprocess from 'svelte-preprocess';
 
-const config: UserConfig = {
+/** @type {import('vite').UserConfig} */
+const config = {
+	preprocess: [
+		preprocess({
+		  postcss: true,
+		}),
+	  ],
 	plugins: [sveltekit()]
 };
 
