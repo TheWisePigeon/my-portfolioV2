@@ -20,29 +20,38 @@
     <hr>
     <div class=" mb-14">
         <p>My Skills</p>
-        <div>
+        <div class=" w-3/5 hover:border-b-2">
             <p class=" font-bold inline">Languages:</p> JavaScript TypeScript Python
         </div>
-        <div>
+        <div class=" w-3/5 hover:border-b-2">
             <p class=" font-bold inline">Frontend Development:</p> React, Svelte, Vue
         </div>
-        <div>
+        <div class=" w-3/5 hover:border-b-2">
             <p class=" font-bold inline">Backend Development:</p> ExpressJS, tRPC, Flask
         </div>
-        <div>
+        <div class=" w-3/5 hover:border-b-2">
             <p class="font-bold inline">Databases:</p> MongoDB, PostgreSQL, Firebase
         </div>
-        <div>
-            <p class=" font-bold inline">Hosting:</p> Firebase, Vercel, Netlify, Linode
+        <div class=" w-3/5 hover:border-b-2">
+            <p class=" font-bold inline">Hosting:</p> Heroku, Firebase, Vercel, Netlify, Linode
         </div>
-        <div>
+        <div class=" w-3/5 hover:border-b-2">
             <p class=" font-bold inline">More:</p> Flutter, Tauri, Machine Learning
         </div>
     </div>
     <hr>
-    <div class="mb-14">
+    <div class="mb-14 w-3/5 hover:border-b-2">
         <p>Projects</p>
         Check out my projects <a class=" text-green-500" href="/projects">Here</a>
     </div>
     <hr>
+    <div class="mb-14 ">
+        <p>Work experience</p>
+        <div >
+        <p>A2B Tech(June 2022-August 2022): FullStack Web development( NextJS, JavaScript, TypeScript, Express)</p>
+        </div>
+        <div >
+            <p>AxeTag SAS(May 2022-present): Backend Development and Machine learning(Flask, Python)</p>
+        </div>
+    </div>
 </div>
