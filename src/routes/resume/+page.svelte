@@ -39,4 +39,10 @@
             <p class=" font-bold inline">More:</p> Flutter, Tauri, Machine Learning
         </div>
     </div>
+    <hr>
+    <div class="mb-14">
+        <p>Projects</p>
+        Check out my projects <a class=" text-green-500" href="/projects">Here</a>
+    </div>
+    <hr>
 </div>
