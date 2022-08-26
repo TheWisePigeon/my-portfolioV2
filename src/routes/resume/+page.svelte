@@ -17,7 +17,7 @@
     <div class=" mb-14">
         Connect with me: <br>
         <p  >Email: <a class="text-green-500 underline" href="mailto:josephdogbevi2002@gmail.com" >josephdogbevi2002@gmail.com</a></p>
-        <p  >Github: <a class="text-green-500 underline" href="github.com/TheWisePigeon">@TheWisePigeon</a></p>
+        <p  >Github: <a class="text-green-500 underline" href="https://github.com/TheWisePigeon">@TheWisePigeon</a></p>
         <p  >Twitter: <a class="text-green-500 underline" href="https://twitter.com/pigeondev0_0">@pigeondev0_0</a></p>
         <p  >Blogs: <a class="text-green-500 underline" href="https://pigeonscript.co">PigeonScript</a>  <a class="text-green-500 underline" href="https://pigeondev-blog.vercel.app">PigeonDev</a> </p>
     </div>
