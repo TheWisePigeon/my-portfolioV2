@@ -1,6 +1,6 @@
 <div class=" bg-slate-600 flex flex-col justify-start  h-full m-auto w-[900px] text-lg">
     <div class=" text-left flex justify-between items-baseline text-4xl font-bold py-4">
-        <p>Joseph DOGBEVI</p>
+        <a href="/">Joseph DOGBEVI</a>
         <div class=" flex justify-between w-52 text-lg">
             <button class=" border-2 border-white hover:bg-white hover:text-slate-600 p-1"><a href="/projects">PROJECTS</a></button>
             <button class=" border-2 border-white hover:bg-white hover:text-slate-600 p-1"><a href="/blog">BLOG</a></button>
