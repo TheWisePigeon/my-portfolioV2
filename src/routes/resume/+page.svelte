@@ -1,4 +1,4 @@
-<div class=" bg-slate-600 flex flex-col justify-start  h-screen m-auto w-[900px] text-lg">
+<div class=" bg-slate-600 flex flex-col justify-start  h-full m-auto w-[900px] text-lg">
     <div class=" text-left flex justify-between items-baseline text-4xl font-bold py-4">
         <p>Joseph DOGBEVI</p>
         <div class=" flex justify-between w-52 text-lg">
@@ -45,7 +45,7 @@
         </div>
     </div>
     <hr>
-    <div class="mb-14 w-3/5 hover:border-b-2">
+    <div class="mb-14 w-3/5 ">
         <p>Projects</p>
         Check out my projects <a class=" text-red-500" href="/projects">Here</a>
     </div>

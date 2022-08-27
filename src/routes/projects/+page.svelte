@@ -1,5 +1,5 @@
 <div
-  class=" bg-slate-600 flex flex-col justify-start  h-screen m-auto w-[900px] text-lg"
+  class=" bg-slate-600 flex flex-col justify-start  h-full m-auto w-[900px] text-lg"
 >
   <div
     class=" text-left flex justify-between items-baseline text-4xl font-bold py-4"
@@ -105,6 +105,36 @@
       <div class=" flex flex-col text-right">
         <p>Express, TypeScript, Angular</p>
         <p>Enterprise work</p>
+      </div>
+    </div>
+  </a>
+
+  <a href="https://pigeonscript.co">
+    <div class=" m-3 flex justify-between border-2 border-white p-2 rounded">
+      <div class=" w-2/5 flex flex-col text-left">
+        <p class=" text-red-500">
+            PigeonScript
+        </p>
+        <p>My personal blog</p>
+      </div>
+      <div class=" flex flex-col text-right">
+        <p>NodeJS, JavaScript, AstroJS</p>
+        <p>Open Source</p>
+      </div>
+    </div>
+  </a>
+
+  <a href="https://pigeondev-blog.vercel.app">
+    <div class=" m-3 flex justify-between border-2 border-white p-2 rounded">
+      <div class=" w-2/5 flex flex-col text-left">
+        <p class=" text-red-500">
+            PigeonDev
+        </p>
+        <p>My second personal blog</p>
+      </div>
+      <div class=" flex flex-col text-right">
+        <p>NodeJS, JavaScript, NextJS</p>
+        <p>Open Source</p>
       </div>
     </div>
   </a>
