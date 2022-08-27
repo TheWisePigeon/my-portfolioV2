@@ -20,7 +20,7 @@
   <a href="https://github.com/TheWisePigeon/nvm-gui#nvm-gui">
     <div class=" m-3 flex justify-between border-2 border-white p-2 rounded">
       <div class=" w-2/5 flex flex-col text-left">
-        <p>
+        <p class=" text-red-500">
             NVM GUI
         </p>
         <p>A graphical user interface to manage NodeJS versions</p>
@@ -35,7 +35,7 @@
   <a href="https://randomiz.vercel.app/">
     <div class=" m-3 flex justify-between border-2 border-white p-2 rounded">
       <div class=" w-2/5 flex flex-col text-left">
-        <p>
+        <p class=" text-red-500">
             Randomiz
         </p>
         <p>A fake user data generator for API testing and mocking</p>
@@ -50,7 +50,7 @@
   <a href="https://www.npmjs.com/package/node-cinetpay">
     <div class=" m-3 flex justify-between border-2 border-white p-2 rounded">
       <div class=" w-2/5 flex flex-col text-left">
-        <p>
+        <p class=" text-red-500">
           Node-Cinetpay
         </p>
         <p>Unofficial npm module for CinetPay's API</p>
@@ -65,7 +65,7 @@
   <a href="https://github.com/TheWisePigeon/express-app-skeleton">
     <div class=" m-3 flex justify-between border-2 border-white p-2 rounded">
       <div class=" w-2/5 flex flex-col text-left">
-        <p>
+        <p class=" text-red-500">
             Express Skeleton
         </p>
         <p>CLI to scaffold express projects</p>
@@ -80,7 +80,7 @@
   <a href="https://github.com/TheWisePigeon/express-ts-starter">
     <div class=" m-3 flex justify-between border-2 border-white p-2 rounded">
       <div class=" w-2/5 flex flex-col text-left">
-        <p>
+        <p class=" text-red-500">
             Express-ts started
         </p>
         <p>Express and TypeScript project scaffolder</p>
@@ -96,7 +96,7 @@
   <a href="#">
     <div class=" m-3 flex justify-between border-2 border-white p-2 rounded">
       <div class=" w-2/5 flex flex-col text-left">
-        <p>
+        <p class=" text-red-500">
             AyaleX
         </p>
         <p>Car, House and Tools rental website</p>
