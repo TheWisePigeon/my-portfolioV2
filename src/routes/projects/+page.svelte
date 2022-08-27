@@ -16,6 +16,7 @@
       >
     </div>
   </div>
+  <p>Projects</p>
   <hr />
   <a href="https://github.com/TheWisePigeon/nvm-gui#nvm-gui">
     <div class=" m-3 flex justify-between border-2 border-white p-2 rounded">
