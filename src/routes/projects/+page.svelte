@@ -93,21 +93,6 @@
     </div>
   </a>
 
-  <!-- svelte-ignore a11y-invalid-attribute -->
-  <a href="#">
-    <div class=" m-3 flex justify-between border-2 border-white p-2 rounded">
-      <div class=" w-2/5 flex flex-col text-left">
-        <p class=" text-red-500">
-            AyaleX
-        </p>
-        <p>Car, House and Tools rental website</p>
-      </div>
-      <div class=" flex flex-col text-right">
-        <p>Express, TypeScript, Angular</p>
-        <p>Enterprise work</p>
-      </div>
-    </div>
-  </a>
 
   <a href="https://pigeonscript.co">
     <div class=" m-3 flex justify-between border-2 border-white p-2 rounded">
