@@ -1,5 +1,5 @@
 <div class=" p-4">
-    <div class=" flex justify-between p-2 items-baseline">
+    <div class=" flex justify-between items-baseline">
         <a href="/" class=" text-2xl">Joseph DOGBEVI</a>
         <div class=" flex justify-between space-x-2 ">
             <a href="/projects">
@@ -10,8 +10,8 @@
             </a>
         </div>
     </div>
-    <hr>
-    <div class=" p-2 text-justify">
+    <hr class="my-4">
+    <div class="text-justify mb-3">
         I am Joseph. A 20 years old FullStack Web Developer, Machine learning enthusiast and Technical writer.
     </div>
     <p class=" block">Email: <a class=" text-red-500" href="mailto:josephdogbevi2002@gmail.com">josephdogbevi2002@gmail.com</a> </p>
