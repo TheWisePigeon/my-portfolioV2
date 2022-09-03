@@ -3,23 +3,23 @@
   style="background-image: url('bg2.gif');"
 >
   <div class=" space-y-5">
-    <div class=" text-5xl">Joseph DOGBEVI</div>
+    <div class=" text-5xl sm:text-3xl">Joseph DOGBEVI</div>
     <hr />
     <div class=" text-center">FullStack Web Developer</div>
     <div class=" flex justify-between">
-      <a href="/">
+      <a href="/resume">
         <button
           class=" border-2 border-white p-2 hover:bg-white hover:text-slate-600"
           >Resume</button
         >
       </a>
-      <a href="/">
+      <a href="/projects">
         <button
           class=" border-2 border-white p-2 hover:bg-white hover:text-slate-600"
           >Projects</button
         >
       </a>
-      <a href="/">
+      <a href="/blog">
         <button
           class=" border-2 border-white p-2 hover:bg-white hover:text-slate-600"
           >Blog</button
