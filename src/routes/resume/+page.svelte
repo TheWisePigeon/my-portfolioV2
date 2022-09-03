@@ -18,4 +18,21 @@
     <p class=" block">Github: <a class=" text-red-500" href="https://github.com/TheWisePigeon">@TheWisePigeon</a> </p>
     <p class=" block">Twitter: <a class=" text-red-500" href="https://twitter.com/pigeondev0_0">@pigeondev0_0</a> </p>
     <p class=" block">NPM: <a class=" text-red-500" href="https://npmjs.com/the_wise_pigeon">@the_wise_pigeon</a> </p>
+
+    <hr class=" my-4">
+    <div>
+        <p class="block font-bold">Skills</p>
+        <div>
+            <p class="font-bold inline">JavaScript:</p>TypeScript, React, NextJS, Svelte 
+        </div>
+        <div>
+            <p class="font-bold inline">Python:</p>Flask, Machine Learning 
+        </div>
+        <div>
+            <p class="font-bold inline">NodeJS:</p>ExpressJS
+        </div>
+        <div>
+            <p class="font-bold inline">More:</p>TypeScript, React, NextJS, Svelte 
+        </div>
+    </div>
 </div>
