@@ -11,4 +11,10 @@
         </div>
     </div>
     <hr>
+    <div class=" p-2 text-justify">
+        I am Joseph. A 20 years old FullStack Web Developer, Machine learning enthusiast and Technical writer
+    </div>
+    <div>
+        
+    </div>
 </div>
