@@ -3,9 +3,9 @@
   style="background-image: url('bg2.gif');"
 >
   <div class=" space-y-5">
-    <div class=" text-4xl ">Joseph DOGBEVI</div>
+    <div class=" text-4xl md:text-7xl lg:text-8xl ">Joseph DOGBEVI</div>
     <hr />
-    <div class=" text-center">FullStack Web Developer</div>
+    <div class=" text-center lg:text-3xl">FullStack Web Developer</div>
     <div class=" flex justify-between">
       <a href="/resume">
         <button
