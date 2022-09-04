@@ -1,6 +1,6 @@
 <div class=" p-4 lg:w-3/5 lg:m-auto lg:text-2xl">
     <div class=" flex justify-between items-baseline">
-        <a href="/" class=" text-2xl">Joseph DOGBEVI</a>
+        <a href="/" class=" font-extrabold">Joseph DOGBEVI</a>
         <div class=" flex justify-between space-x-2 ">
             <a href="/projects">
                 <button class=" border-2 border-white hover:bg-white hover:text-slate-600 p-2 ">Projects</button>
@@ -12,7 +12,7 @@
     </div>
     <hr class="my-4">
     <div class="text-justify mb-3">
-        I am Joseph. A 20 years old FullStack Web Developer, Machine learning enthusiast and Technical writer.
+        I am Joseph. A { new Date().getFullYear() - 2002 } years old FullStack Web Developer, AI & Machine learning enthusiast and Technical writer.
     </div>
     <p class=" block">Email: <a class=" underline text-red-500" href="mailto:josephdogbevi2002@gmail.com">josephdogbevi2002@gmail.com</a> </p>
     <p class=" block">Github: <a class=" underline text-red-500" href="https://github.com/TheWisePigeon">TheWisePigeon</a> </p>
