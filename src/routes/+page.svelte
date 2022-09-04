@@ -3,7 +3,7 @@
   style="background-image: url('bg2.gif');"
 >
   <div class=" space-y-5">
-    <div class=" text-5xl sm:text-3xl">Joseph DOGBEVI</div>
+    <div class=" text-4xl ">Joseph DOGBEVI</div>
     <hr />
     <div class=" text-center">FullStack Web Developer</div>
     <div class=" flex justify-between">
