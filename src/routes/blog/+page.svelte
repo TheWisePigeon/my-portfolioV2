@@ -34,7 +34,7 @@
 </script>
 
 <div class=" p-4 lg:w-3/5 lg:m-auto lg:text-2xl">
-  <div class=" flex justify-between ">
+  <div class=" flex justify-between items-baseline ">
     <a href="/" class=" font-extrabold">Joseph DOGBEVI</a>
     <div class=" flex justify-between space-x-2 ">
       <a href="/resume">
