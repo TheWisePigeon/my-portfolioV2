@@ -52,16 +52,6 @@
     </div>
   </div>
   <hr class="my-4" />
- <!-- <div class=" space-y-3 md:space-y-6 lg:space-y-10">
-     {#each posts as post}
-       <div>
-        <a class="" href={post.link}>
-              <p class=" inline font-bold text-red-500">{post.title}</p>
-              ({post.desc})
-        </a>
-       </div>
-     {/each}
- </div> -->
  <div class=" space-y-3">
     {#each posts as project}
       <a class=" m-2" href={project.link}>
