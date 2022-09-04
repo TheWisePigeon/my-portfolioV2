@@ -1,4 +1,4 @@
-<div class=" p-4">
+<div class=" p-4 lg:w-3/5 lg:m-auto lg:text-2xl">
     <div class=" flex justify-between items-baseline">
         <a href="/" class=" text-2xl">Joseph DOGBEVI</a>
         <div class=" flex justify-between space-x-2 ">
@@ -26,10 +26,10 @@
             <p class="font-bold inline">Languages:</p> JavaScript&TypeScript, Python 
         </div>
         <div>
-            <p class="font-bold inline">Frontend:</p>React, NextJS, Svelte 
+            <p class="font-bold inline">Frontend technologies:</p>React, NextJS, Svelte 
         </div>
         <div>
-            <p class="font-bold inline">Backend:</p>NodeJS, Express, Flask
+            <p class="font-bold inline">Backend technologies:</p>NodeJS, Express, Flask
         </div>
         <div>
             <p class="font-bold inline">Databases:</p>Firebase, PostgreSQL, NoSQL 
@@ -38,7 +38,7 @@
             <p class="font-bold inline">Hosting:</p>Heroku, Railway, Firebase 
         </div>        
         <div>
-            <p class="font-bold inline">More:</p>Tauri | Electron, Machine Learning 
+            <p class="font-bold inline">More:</p>Desktop development with Tauri and Electron. Machine Learning 
         </div>
     </div>
     <hr class=" my-4">
@@ -51,12 +51,11 @@
         <p class=" font-bold">Experience</p>
         <div class=" my-2">
             <p class=" font-bold">A2B Tech</p>
-            <p class=" inline underline">Web Development Internship</p>(June 2022-August 2022): Web Development consulting. Maintained and created services using TypeScript, Express and React <br>
-            <p class=" inline underline">Web Development</p>(September 2022-Now): Web Development consulting. 
+            June 2022-August 2022: Web Development consulting. Maintained and created services using TypeScript, Express and React <br>
         </div>
         <div class=" my-2">
             <p class=" font-bold">AXETAG SAS</p>
-            <p class=" inline underline">Backend Development</p>(May 2022- Now): Backend Development with Flask and Machine Learning.
+            May 2022- Now: Backend Development with Flask. Machine Learning.
         </div>
     </div>
 </div>
