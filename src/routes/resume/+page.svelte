@@ -20,19 +20,25 @@
     <p class=" block">NPM: <a class=" text-red-500" href="https://npmjs.com/the_wise_pigeon">@the_wise_pigeon</a> </p>
 
     <hr class=" my-4">
-    <div>
+    <div class=" space-y-3">
         <p class="block font-bold">Skills</p>
         <div>
-            <p class="font-bold inline">JavaScript:</p>TypeScript, React, NextJS, Svelte 
+            <p class="font-bold inline">Languages:</p> JavaScript&TypeScript, Python 
         </div>
         <div>
-            <p class="font-bold inline">Python:</p>Flask, Machine Learning 
+            <p class="font-bold inline">Frontend:</p>React, NextJS, Svelte 
         </div>
         <div>
-            <p class="font-bold inline">NodeJS:</p>ExpressJS
+            <p class="font-bold inline">Backend:</p>ExpressJS, Flask
         </div>
         <div>
-            <p class="font-bold inline">More:</p>TypeScript, React, NextJS, Svelte 
+            <p class="font-bold inline">Databases:</p>Firebase, PostgreSQL, NoSQL 
+        </div>
+        <div>
+            <p class="font-bold inline">Hosting:</p>Heroku, Railway, Firebase 
+        </div>        
+        <div>
+            <p class="font-bold inline">More:</p>Tauri | Electron, Machine Learning 
         </div>
     </div>
 </div>
