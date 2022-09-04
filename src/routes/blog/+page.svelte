@@ -1,44 +1,67 @@
-<div class=" flex flex-col justify-start  h-screen m-auto w-[900px] text-lg">
-  <div
-    class=" text-left flex justify-between items-baseline text-4xl font-bold py-4"
-  >
-    <a href="/">Joseph DOGBEVI</a>
-    <div class=" flex justify-between w-52 text-lg">
-      <button
-        class=" border-2 border-white hover:bg-white hover:text-slate-600 p-1"
-        ><a href="/resume">RESUME</a></button
-      >
-      <button
-        class=" border-2 border-white hover:bg-white hover:text-slate-600 p-1"
-        ><a href="/projects">PROJECTS</a></button
-      >
+<script lang="ts">
+  const posts = [
+    {
+      title: "JavaScript101: Arrow functions➚",
+      desc: "ES6 Arrow functions explained",
+      link: "https://pigeondev-blog.vercel.app/posts/JS101",
+    },
+    {
+      title: "WebDev101➚",
+      desc: "Basic stuff about web development",
+      link: "https://pigeondev-blog.vercel.app/posts/WebDev101",
+    },
+    {
+      title: "React is not a framework➚",
+      desc: "Frameworks vs libraries",
+      link: "https://pigeonscript.co/posts/react-is-not-a-framework",
+    },
+    {
+      title: "Map, Filter, Reduce➚",
+      desc: "ES6 Array methods explained",
+      link: "https://pigeonscript.co/posts/map-filter-reduce",
+    },
+    {
+      title: "PyScript➚",
+      desc: "The power of python in the browser",
+      link: "https://pigeonscript.co/posts/pyscript-a-quick-overview",
+    },
+    {
+      title: "Node Fetch API➚",
+      desc: "Quick overview of the node fetch API",
+      link: "https://pigeonscript.co/posts/node-fetch-is-here",
+    },
+  ];
+</script>
+
+<div class=" p-4 lg:w-3/5 lg:m-auto lg:text-2xl">
+  <div class=" flex justify-between items-baseline ">
+    <a href="/" class=" font-extrabold">Joseph DOGBEVI</a>
+    <div class=" flex justify-between space-x-2 ">
+      <a href="/resume">
+        <button
+          class=" border-2 border-white hover:bg-white hover:text-slate-600 p-2 "
+          >Resume</button
+        >
+      </a>
+      <a href="/projects">
+        <button
+          class=" border-2 border-white hover:bg-white hover:text-slate-600 p-2 "
+          >Projects</button
+        >
+      </a>
     </div>
   </div>
-  <p>Blog posts</p>
-  <hr />
-  <div class=" hover:border-b-2 w-4/5 my-5">
-    <a class=" font-bold text-2xl text-red-500 " href="https://pigeondev-blog.vercel.app/posts/JS101">JavaScript101: Arrow Functions</a>(ES6 Arrow Functions explained)
+  <hr class="my-4" />
+ <div class=" space-y-3">
+    {#each posts as project}
+      <a class=" m-2" href={project.link}>
+        <div
+          class=" border-2 p-2 border-white  rounded-lg transform transition duration-500 hover:scale-110"
+        >
+          <p class=" text-red-500">{project.title}</p>
+          <p>{project.desc}</p>
+        </div>
+      </a>
+    {/each}
   </div>
-  <div class=" hover:border-b-2 w-4/5 my-5">
-    <a class=" font-bold text-2xl text-red-500 " href="https://pigeondev-blog.vercel.app/posts/WebDev101">WebDev101</a>(Basic stuff about web development)
-  </div>
-  <div class=" hover:border-b-2 w-4/5 my-5">
-    <a class=" font-bold text-2xl text-red-500 " href="https://pigeonscript.co/posts/react-is-not-a-framework">React is not a framework</a>(Frameworks vs Libraries)
-  </div>
-  <div class=" hover:border-b-2 w-4/5 my-5">
-    <a class=" font-bold text-2xl text-red-500 " href="https://pigeonscript.co/posts/map-filter-reduce">Map, Filter, Reduce</a>(ES6 Array methods explained)
-  </div>
-  <div class=" hover:border-b-2 w-4/5 my-5">
-    <a class=" font-bold text-2xl text-red-500 " href="https://pigeonscript.co/posts/pyscript-a-quick-overview">PyScript</a>(The power of python, now in the browser)
-  </div>
-  <div class=" hover:border-b-2 w-4/5 my-5">
-    <a class=" font-bold text-2xl text-red-500 " href="https://pigeonscript.co/posts/node-fetch-is-here">Node Fetch API is here</a>(Quick overview of the fetch API)
-  </div>
-  <div class=" hover:border-b-2 w-4/5 my-5">
-    <a class=" font-bold text-2xl text-red-500 " href="https://pigeondev-blog.vercel.app/posts/JS101">JavaScript101: Arrow Functions</a>(ES6 Arrow Functions explained)
-  </div>
-  <div class=" hover:border-b-2 w-4/5 my-5">
-    <a class=" font-bold text-2xl text-red-500 " href="https://pigeonscript.co/posts/welcome-to-pigeonscript">Welcome to PigeonScript</a>(My very first blog post)
-  </div>
-
 </div>

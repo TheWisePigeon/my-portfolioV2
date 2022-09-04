@@ -1,126 +1,75 @@
-<div
-  class=" bg-slate-600 flex flex-col justify-start  h-full m-auto w-[900px] text-lg"
->
-  <div
-    class=" text-left flex justify-between items-baseline text-4xl font-bold py-4"
-  >
-    <a href="/">Joseph DOGBEVI</a>
-    <div class=" flex justify-between w-52 text-lg">
-      <button
-        class=" border-2 border-white hover:bg-white hover:text-slate-600 p-1"
-        ><a href="/blog">BLOG</a></button
-      >
-      <button
-        class=" border-2 border-white hover:bg-white hover:text-slate-600 p-1"
-        ><a href="/resume">RESUME</a></button
-      >
+<script lang="ts">
+  const projects = [
+    {
+      name: "WValidator",
+      link: "https://wvalidator.vercel.app",
+      desc: "A form validation library",
+      stack: "TypeScript",
+    },
+    {
+      name: "NVM GUI",
+      link: "https://github.com/TheWisePigeon/nvm-gui#nvm-gui",
+      desc: "A GUI for managing NodeJS versions",
+      stack: "Rust, TypeScript",
+    },
+    {
+      name: "Randomiz",
+      link: "https://randomiz.vercel.app/",
+      desc: "A random user data generator for API testing and mocking",
+      stack: "JavaScript, Svelte, Heroku",
+    },
+    {
+      name: "Node-CinetPay",
+      link: "https://www.npmjs.com/package/node-cinetpay",
+      desc: "Unofficial npm module for Cinetpay's API",
+      stack: "JavaScript, NPM",
+    },
+    {
+      name: "Express Skeleton",
+      link: "https://github.com/TheWisePigeon/express-app-skeleton",
+      desc: "A CLI tool to scaffold express projects",
+      stack: "NodeJS, JavaScript, NPM",
+    },
+    {
+      name: "Express-ts starter",
+      link: "https://github.com/TheWisePigeon/express-ts-starter",
+      desc: "Express with TypeScript project boilerplate",
+      stack: "TypeScript, NodeJS, NPM",
+    },
+  ];
+</script>
+
+<div class=" p-4 lg:w-3/5 lg:m-auto lg:text-2xl">
+  <div class=" flex justify-between items-baseline">
+    <a href="/" class=" font-extrabold ">Joseph DOGBEVI</a>
+    <div class=" flex justify-between space-x-2 ">
+      <a href="/blog">
+        <button
+          class=" border-2 border-white hover:bg-white hover:text-slate-600 p-2 "
+          >Blog</button
+        >
+      </a>
+      <a href="/resume">
+        <button
+          class=" border-2 border-white hover:bg-white hover:text-slate-600 p-2 "
+          >Resume</button
+        >
+      </a>
     </div>
   </div>
-  <p>Projects</p>
-  <hr />
-  <a href="https://github.com/TheWisePigeon/nvm-gui#nvm-gui">
-    <div class=" m-3 flex justify-between border-2 border-white p-2 rounded">
-      <div class=" w-2/5 flex flex-col text-left">
-        <p class=" text-red-500">
-            NVM GUI
-        </p>
-        <p>A graphical user interface to manage NodeJS versions</p>
-      </div>
-      <div class=" flex flex-col text-right">
-        <p>Rust, Tauri, NextJS</p>
-        <p>Open Source</p>
-      </div>
-    </div>
-  </a>
+  <hr class=" my-4" />
 
-  <a href="https://randomiz.vercel.app/">
-    <div class=" m-3 flex justify-between border-2 border-white p-2 rounded">
-      <div class=" w-2/5 flex flex-col text-left">
-        <p class=" text-red-500">
-            Randomiz
-        </p>
-        <p>A fake user data generator for API testing and mocking</p>
-      </div>
-      <div class=" flex flex-col text-right">
-        <p>Express, Svelte, TypeScript</p>
-        <p>Open Source</p>
-      </div>
-    </div>
-  </a>
-
-  <a href="https://www.npmjs.com/package/node-cinetpay">
-    <div class=" m-3 flex justify-between border-2 border-white p-2 rounded">
-      <div class=" w-2/5 flex flex-col text-left">
-        <p class=" text-red-500">
-          Node-Cinetpay
-        </p>
-        <p>Unofficial npm module for CinetPay's API</p>
-      </div>
-      <div class=" flex flex-col text-right">
-        <p>JavaScript, ES6</p>
-        <p>Open Source</p>
-      </div>
-    </div>
-  </a>
-
-  <a href="https://github.com/TheWisePigeon/express-app-skeleton">
-    <div class=" m-3 flex justify-between border-2 border-white p-2 rounded">
-      <div class=" w-2/5 flex flex-col text-left">
-        <p class=" text-red-500">
-            Express Skeleton
-        </p>
-        <p>CLI to scaffold express projects</p>
-      </div>
-      <div class=" flex flex-col text-right">
-        <p>NodeJS, JavaScript, NPM</p>
-        <p>Open Source</p>
-      </div>
-    </div>
-  </a>
-
-  <a href="https://github.com/TheWisePigeon/express-ts-starter">
-    <div class=" m-3 flex justify-between border-2 border-white p-2 rounded">
-      <div class=" w-2/5 flex flex-col text-left">
-        <p class=" text-red-500">
-            Express-ts started
-        </p>
-        <p>Express and TypeScript project scaffolder</p>
-      </div>
-      <div class=" flex flex-col text-right">
-        <p>ExpressJS, TypeScript, NPM</p>
-        <p>Open Source</p>
-      </div>
-    </div>
-  </a>
-
-
-  <a href="https://pigeonscript.co">
-    <div class=" m-3 flex justify-between border-2 border-white p-2 rounded">
-      <div class=" w-2/5 flex flex-col text-left">
-        <p class=" text-red-500">
-            PigeonScript
-        </p>
-        <p>My personal blog</p>
-      </div>
-      <div class=" flex flex-col text-right">
-        <p>NodeJS, JavaScript, AstroJS</p>
-        <p>Open Source</p>
-      </div>
-    </div>
-  </a>
-
-  <a href="https://pigeondev-blog.vercel.app">
-    <div class=" m-3 flex justify-between border-2 border-white p-2 rounded">
-      <div class=" w-2/5 flex flex-col text-left">
-        <p class=" text-red-500">
-            PigeonDev
-        </p>
-        <p>My second personal blog</p>
-      </div>
-      <div class=" flex flex-col text-right">
-        <p>NodeJS, JavaScript, NextJS</p>
-        <p>Open Source</p>
-      </div>
-    </div>
-  </a>
+  <div class=" space-y-3">
+    {#each projects as project}
+      <a class=" m-2" href={project.link}>
+        <div
+          class=" border-2 p-2 border-white  rounded-lg transform transition duration-500 hover:scale-110"
+        >
+          <p class=" text-red-500">{project.name}➚</p>
+          <p>{project.desc}</p>
+          <p>Stack: {project.stack} </p>
+        </div>
+      </a>
+    {/each}
+  </div>
 </div>

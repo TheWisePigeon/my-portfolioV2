@@ -1,62 +1,61 @@
-<div class=" bg-slate-600 flex flex-col justify-start  h-full m-auto w-[900px] text-lg">
-    <div class=" text-left flex justify-between items-baseline text-4xl font-bold py-4">
-        <a href="/">Joseph DOGBEVI</a>
-        <div class=" flex justify-between w-52 text-lg">
-            <button class=" border-2 border-white hover:bg-white hover:text-slate-600 p-1"><a href="/projects">PROJECTS</a></button>
-            <button class=" border-2 border-white hover:bg-white hover:text-slate-600 p-1"><a href="/blog">BLOG</a></button>
+<div class=" p-4 lg:w-3/5 lg:m-auto lg:text-2xl">
+    <div class=" flex justify-between items-baseline">
+        <a href="/" class=" font-extrabold">Joseph DOGBEVI</a>
+        <div class=" flex justify-between space-x-2 ">
+            <a href="/projects">
+                <button class=" border-2 border-white hover:bg-white hover:text-slate-600 p-2 ">Projects</button>
+            </a>
+            <a href="/blog">
+                <button class=" border-2 border-white hover:bg-white hover:text-slate-600 p-2 ">Blog</button>
+            </a>
         </div>
     </div>
-    <hr >
-    <div class=" mb-10">
-        I am Joseph, a 20 years old FullStack Web Developer. <br>
-        I have a passion for technology and software development/architecture. <br>
-        I am always learning new things and improving my skills to become a better developer. <br>
-        In my free time, I enjoy building open source projects, write, read or play video games :) <br>
+    <hr class="my-4">
+    <div class="text-justify mb-3">
+        I am Joseph. A { new Date().getFullYear() - 2002 } years old FullStack Web Developer, AI & Machine learning enthusiast and Technical writer.
     </div>
-    <hr>
-    <div class=" mb-14">
-        Connect with me: <br>
-        <p  >Email: <a class="text-red-500 underline" href="mailto:josephdogbevi2002@gmail.com" >josephdogbevi2002@gmail.com</a></p>
-        <p  >Github: <a class="text-red-500 underline" href="https://github.com/TheWisePigeon">@TheWisePigeon</a></p>
-        <p  >Twitter: <a class="text-red-500 underline" href="https://twitter.com/pigeondev0_0">@pigeondev0_0 </a></p>
-        <p  >NPM: <a class="text-red-500 underline" href="https://www.npmjs.com/~the_wise_pigeon">@the_wise_pigeon </a></p>
-        <p  >Blogs: <a class="text-red-500 underline" href="https://pigeonscript.co">PigeonScript</a>  <a class="text-red-500 underline" href="https://pigeondev-blog.vercel.app">PigeonDev</a> </p>
-    </div>
-    <hr>
-    <div class=" mb-14">
-        <p>My Skills</p>
-        <div class=" w-3/5 hover:border-b-2">
-            <p class=" font-bold inline">Languages:</p> JavaScript TypeScript Python
+    <p class=" block">Email: <a class=" underline text-red-500" href="mailto:josephdogbevi2002@gmail.com">josephdogbevi2002@gmail.com</a> </p>
+    <p class=" block">Github: <a class=" underline text-red-500" href="https://github.com/TheWisePigeon">TheWisePigeon</a> </p>
+    <p class=" block">Twitter: <a class=" underline text-red-500" href="https://twitter.com/pigeondev0_0">pigeondev0_0</a> </p>
+    <p class=" block">NPM: <a class=" underline text-red-500" href="https://npmjs.com/the_wise_pigeon">the_wise_pigeon</a> </p>
+
+    <hr class=" my-4">
+    <div class=" space-y-3">
+        <p class="block font-bold">Skills</p>
+        <div>
+            <p class="font-bold inline">Languages:</p> JavaScript&TypeScript, Python 
         </div>
-        <div class=" w-3/5 hover:border-b-2">
-            <p class=" font-bold inline">Frontend Development:</p> React, Svelte, Vue
+        <div>
+            <p class="font-bold inline">Frontend technologies:</p>React, NextJS, Svelte 
         </div>
-        <div class=" w-3/5 hover:border-b-2">
-            <p class=" font-bold inline">Backend Development:</p> ExpressJS, tRPC, Flask
+        <div>
+            <p class="font-bold inline">Backend technologies:</p>NodeJS, Express, Flask
         </div>
-        <div class=" w-3/5 hover:border-b-2">
-            <p class="font-bold inline">Databases:</p> MongoDB, PostgreSQL, Firebase
+        <div>
+            <p class="font-bold inline">Databases:</p>Firebase, PostgreSQL, NoSQL 
         </div>
-        <div class=" w-3/5 hover:border-b-2">
-            <p class=" font-bold inline">Hosting:</p> Heroku, Firebase, Vercel, Netlify, Linode
-        </div>
-        <div class=" w-3/5 hover:border-b-2">
-            <p class=" font-bold inline">More:</p> Flutter, Tauri, Machine Learning
+        <div>
+            <p class="font-bold inline">Hosting:</p>Heroku, Railway, Firebase 
+        </div>        
+        <div>
+            <p class="font-bold inline">More:</p>Desktop development with Tauri and Electron. Machine Learning 
         </div>
     </div>
-    <hr>
-    <div class="mb-14 w-3/5 ">
-        <p>Projects</p>
-        Check out my projects <a class=" text-red-500" href="/projects">Here</a>
+    <hr class=" my-4">
+    <div>
+        <p class=" font-bold">Projects</p>
+        Check my projects <a class=" text-red-500" href="/projects">Here</a>
     </div>
-    <hr>
-    <div class="mb-14 ">
-        <p>Work experience</p>
-        <div >
-        <p>A2B Tech(June 2022-August 2022): FullStack Web development( NextJS, JavaScript, TypeScript, Express)</p>
+    <hr class=" my-4">
+    <div>
+        <p class=" font-bold">Experience</p>
+        <div class=" my-2">
+            <p class=" font-bold">A2B Tech</p>
+            June 2022-August 2022: Web Development consulting. Maintained and created services using TypeScript, Express and React <br>
         </div>
-        <div >
-            <p>AxeTag SAS(May 2022-present): Backend Development and Machine learning(Flask, Python)</p>
+        <div class=" my-2">
+            <p class=" font-bold">AXETAG SAS</p>
+            May 2022- Now: Backend Development with Flask. Machine Learning.
         </div>
     </div>
 </div>

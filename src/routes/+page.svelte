@@ -1,34 +1,30 @@
 <div
-  class=" bg-slate-600 h-screen w-full absolute flex items-center justify-center bg-no-repeat bg-cover" style="background-image: url('bg2.gif');"
+  class=" flex justify-center items-center h-screen bg-no-repeat bg-cover absolute w-full "
+  style="background-image: url('bg2.gif');"
 >
-  <div class=" flex flex-col m-auto justify-between w-full p-3 space-y-10">
-    <div class=" m-auto font-bold text-8xl ">Joseph DOGBEVI</div>
-    <hr class=" m-auto w-40" />
-    <div class=" text-center text-lg">FullStack Web Developer</div>
-    <div class=" flex w-96 m-auto justify-between">
-      <div>
+  <div class=" space-y-5">
+    <div class=" text-4xl md:text-7xl lg:text-8xl ">Joseph DOGBEVI</div>
+    <hr />
+    <div class=" text-center lg:text-3xl">FullStack Web Developer</div>
+    <div class=" flex justify-between">
+      <a href="/resume">
         <button
-          class=" border-white border-2 p-3 w-24 hover:bg-white hover:text-slate-600"
+          class=" border-2 border-white p-2 hover:bg-white hover:text-slate-600"
+          >Resume</button
         >
-          <a href="/resume">RESUME</a>
-        </button>
-      </div>
-      <div>
+      </a>
+      <a href="/projects">
         <button
-          class=" border-white border-2 p-3 w-24 hover:bg-white hover:text-slate-600"
+          class=" border-2 border-white p-2 hover:bg-white hover:text-slate-600"
+          >Projects</button
         >
-          <a href="/projects">PROJECTS</a>
-        </button>
-      </div>
-      <div>
+      </a>
+      <a href="/blog">
         <button
-          class=" border-white border-2 p-3 w-24 hover:bg-white hover:text-slate-600"
+          class=" border-2 border-white p-2 hover:bg-white hover:text-slate-600"
+          >Blog</button
         >
-          <a href="/blog">BLOG</a>
-        </button>
-      </div>
+      </a>
     </div>
-
-    <div />
   </div>
 </div>
