@@ -3,33 +3,39 @@
     {
       name: "WValidator",
       link: "https://wvalidator.vercel.app",
-      desc: "A form validation library"
+      desc: "A form validation library",
+      stack: "TypeScript",
     },
     {
       name: "NVM GUI",
       link: "https://github.com/TheWisePigeon/nvm-gui#nvm-gui",
-      desc: "A GUI for managing NodeJS versions"
+      desc: "A GUI for managing NodeJS versions",
+      stack: "Rust, TypeScript",
     },
     {
       name: "Randomiz",
       link: "https://randomiz.vercel.app/",
-      desc: "A random user data generator for API testing and mocking"
+      desc: "A random user data generator for API testing and mocking",
+      stack: "JavaScript, Svelte, Heroku",
     },
     {
       name: "Node-CinetPay",
       link: "https://www.npmjs.com/package/node-cinetpay",
-      desc: "Unofficial npm module for Cinetpay's API"
+      desc: "Unofficial npm module for Cinetpay's API",
+      stack: "JavaScript, NPM",
     },
     {
       name: "Express Skeleton",
       link: "https://github.com/TheWisePigeon/express-app-skeleton",
-      desc: "A CLI tool to scaffold express projects"
+      desc: "A CLI tool to scaffold express projects",
+      stack: "NodeJS, JavaScript, NPM",
     },
     {
       name: "Express-ts starter",
       link: "https://github.com/TheWisePigeon/express-ts-starter",
-      desc: "Express with TypeScript project boilerplate"
-    }
+      desc: "Express with TypeScript project boilerplate",
+      stack: "TypeScript, NodeJS, NPM",
+    },
   ];
 </script>
 
@@ -52,4 +58,18 @@
     </div>
   </div>
   <hr class=" my-4" />
+
+  <div class=" space-y-3">
+    {#each projects as project}
+      <a class=" m-2" href={project.link}>
+        <div
+          class=" border-2 p-2 border-white  rounded-lg transform transition duration-500 hover:scale-110"
+        >
+          <p class=" text-red-500">{project.name}➚</p>
+          <p>{project.desc}</p>
+          <p>Stack: {project.stack} </p>
+        </div>
+      </a>
+    {/each}
+  </div>
 </div>
