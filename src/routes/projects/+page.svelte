@@ -36,6 +36,12 @@
       desc: "Express with TypeScript project boilerplate",
       stack: "TypeScript, NodeJS, NPM",
     },
+    {
+      name: "Les Delices de Marie",
+      link: "https://github.com/TheWisePigeon/fs0",
+      desc: "Freelance job: Products and recipes listing w/ admin access",
+      stack: "TypeScript, ExpressJS, NextJS",
+    }
   ];
 </script>
 
