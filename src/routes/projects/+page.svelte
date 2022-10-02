@@ -1,10 +1,22 @@
 <script lang="ts">
   const projects = [
     {
+      name: "Gel",
+      link: "https://github.com/TheWisePigeon/releases/blob/main/Gel.README.md",
+      desc: "A pseudo framework based on Vercel Go runtime cloud functions",
+      stack: "Go, Vercel",
+    },
+    {
       name: "WValidator",
       link: "https://wvalidator.vercel.app",
       desc: "A form validation library",
       stack: "TypeScript",
+    },
+    {
+      name: "Randomiz",
+      link: "https://randomiz.vercel.app/",
+      desc: "A random user data generator for API testing and mocking",
+      stack: "JavaScript, Svelte, Python",
     },
     {
       name: "NVM GUI",
@@ -13,22 +25,10 @@
       stack: "Rust, TypeScript",
     },
     {
-      name: "Randomiz",
-      link: "https://randomiz.vercel.app/",
-      desc: "A random user data generator for API testing and mocking",
-      stack: "JavaScript, Svelte, Heroku",
-    },
-    {
       name: "Node-CinetPay",
       link: "https://www.npmjs.com/package/node-cinetpay",
       desc: "Unofficial npm module for Cinetpay's API",
       stack: "JavaScript, NPM",
-    },
-    {
-      name: "Express Skeleton",
-      link: "https://github.com/TheWisePigeon/express-app-skeleton",
-      desc: "A CLI tool to scaffold express projects",
-      stack: "NodeJS, JavaScript, NPM",
     },
     {
       name: "Express-ts starter",
@@ -36,12 +36,7 @@
       desc: "Express with TypeScript project boilerplate",
       stack: "TypeScript, NodeJS, NPM",
     },
-    {
-      name: "Les Delices de Marie",
-      link: "https://github.com/TheWisePigeon/fs0",
-      desc: "Freelance job: Products and recipes listing w/ admin access",
-      stack: "TypeScript, ExpressJS, NextJS",
-    }
+    
   ];
 </script>
 

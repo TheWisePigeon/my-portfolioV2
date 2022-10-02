@@ -12,7 +12,7 @@
     </div>
     <hr class="my-4">
     <div class="text-justify mb-3">
-        I am Joseph. A { new Date().getFullYear() - 2002 } years old FullStack Web Developer, AI & Machine learning enthusiast and Technical writer.
+        I am Joseph. A { new Date().getFullYear() - 2002 } years old Web Developer, AI & Machine learning enthusiast and Technical writer 🙂 <br>
     </div>
     <p class=" block">Email: <a class=" underline text-red-500" href="mailto:josephdogbevi2002@gmail.com">josephdogbevi2002@gmail.com</a> </p>
     <p class=" block">Github: <a class=" underline text-red-500" href="https://github.com/TheWisePigeon">TheWisePigeon</a> </p>
@@ -23,22 +23,22 @@
     <div class=" space-y-3">
         <p class="block font-bold">Skills</p>
         <div>
-            <p class="font-bold inline">Languages:</p> JavaScript&TypeScript, Python 
+            <p class="font-bold inline">Languages:</p> JavaScript/TypeScript, Python, Go 
         </div>
         <div>
-            <p class="font-bold inline">Frontend technologies:</p>React, NextJS, Svelte 
+            <p class="font-bold inline">Frontend technologies:</p>NextJS, Svelte 
         </div>
         <div>
-            <p class="font-bold inline">Backend technologies:</p>NodeJS, Express, Flask
+            <p class="font-bold inline">Backend technologies:</p>NodeJS, Express, Flask, Gin
         </div>
         <div>
-            <p class="font-bold inline">Databases:</p>Firebase, PostgreSQL, NoSQL 
+            <p class="font-bold inline">Databases:</p>Firebase, PostgreSQL, MongoDB
         </div>
         <div>
-            <p class="font-bold inline">Hosting:</p>Heroku, Railway, Firebase 
+            <p class="font-bold inline">Hosting:</p>Render, Railway, Firebase
         </div>        
         <div>
-            <p class="font-bold inline">More:</p>Desktop development with Tauri and Electron. Machine Learning 
+            <p class="font-bold inline">More:</p>Desktop app development with Tauri(Rust) and Go(wails). Hobby Machine Learning 
         </div>
     </div>
     <hr class=" my-4">
