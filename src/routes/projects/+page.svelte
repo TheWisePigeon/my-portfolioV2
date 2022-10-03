@@ -7,6 +7,12 @@
       stack: "Go"
     },
     {
+      name: "pstr(For PyStrings)",
+      link: "https://www.npmjs.com/package/pstr",
+      desc: "A JavaScript port of some of Python's String methods",
+      stack: "TypeScript, NodeJS",
+    },
+    {
       name: "Gel",
       link: "https://github.com/TheWisePigeon/releases/blob/main/Gel.README.md",
       desc: "A pseudo framework based on Vercel Go runtime cloud functions",
