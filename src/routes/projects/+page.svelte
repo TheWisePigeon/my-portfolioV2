@@ -1,6 +1,12 @@
 <script lang="ts">
   const projects = [
     {
+      name: "Git Stalker",
+      link: "https://github.com/TheWisePigeon/gitStalker",
+      desc: "A tool that scans public repos and tells if they contain sensitive information",
+      stack: "Go"
+    },
+    {
       name: "Gel",
       link: "https://github.com/TheWisePigeon/releases/blob/main/Gel.README.md",
       desc: "A pseudo framework based on Vercel Go runtime cloud functions",
