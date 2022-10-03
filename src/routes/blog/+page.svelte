@@ -1,6 +1,15 @@
 <script lang="ts">
   const posts = [
     {
+      title: "Microservices explained by a pigeon➚",
+      desc: "Microservice vs Monolithic architecture",
+      link: "https://thepigeondev.hashnode.dev/microservices-explained-by-a-pigeon-part-1",
+    },{
+      title: "Scalability explained by a pigeon➚",
+      desc: "Software scalability explained with illustrations",
+      link: "https://thepigeondev.hashnode.dev/scalability-explained-by-a-pigeon",
+    },
+    {
       title: "JavaScript101: Arrow functions➚",
       desc: "ES6 Arrow functions explained",
       link: "https://pigeondev-blog.vercel.app/posts/JS101",
