@@ -1,6 +1,12 @@
 <script lang="ts">
   const projects = [
     {
+      name: "SuperSecret",
+      link: "https://www.supersecretapp.ink",
+      desc: "SuperSecret helps you manage and share  your environment variables with your team, easily and securely",
+      stack: "TypeScript, JavaScript"
+    },
+    {
       name: "Git Stalker",
       link: "https://github.com/TheWisePigeon/gitStalker",
       desc: "A tool that scans public repos and tells if they contain sensitive information",
