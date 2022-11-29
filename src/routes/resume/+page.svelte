@@ -23,13 +23,13 @@
     <div class=" space-y-3">
         <p class="block font-bold">Skills</p>
         <div>
-            <p class="font-bold inline">Languages:</p> JavaScript/TypeScript, Python, Go 
+            <p class="font-bold inline">Languages:</p> JavaScript/TypeScript, Python, Rust 
         </div>
         <div>
             <p class="font-bold inline">Frontend technologies:</p>NextJS, Svelte 
         </div>
         <div>
-            <p class="font-bold inline">Backend technologies:</p>NodeJS, Express, Flask, Gin
+            <p class="font-bold inline">Backend technologies:</p>NodeJS, Express, Flask
         </div>
         <div>
             <p class="font-bold inline">Databases:</p>Firebase, PostgreSQL, MongoDB
@@ -38,7 +38,7 @@
             <p class="font-bold inline">Hosting:</p>Render, Railway, Firebase
         </div>        
         <div>
-            <p class="font-bold inline">More:</p>Desktop app development with Tauri(Rust) and Go(wails). Hobby Machine Learning 
+            <p class="font-bold inline">More:</p>Desktop app development with Tauri(Rust) | Hobby Machine Learning 
         </div>
     </div>
     <hr class=" my-4">
