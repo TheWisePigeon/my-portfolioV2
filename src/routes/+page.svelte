@@ -5,7 +5,7 @@
   <div class=" space-y-5">
     <div class=" text-4xl md:text-7xl lg:text-8xl ">Joseph DOGBEVI</div>
     <hr />
-    <div class=" text-center lg:text-3xl">Web Developer</div>
+    <div class=" text-center lg:text-3xl">Junior Software Developer</div>
     <div class=" flex justify-between">
       <a href="/resume">
         <button
