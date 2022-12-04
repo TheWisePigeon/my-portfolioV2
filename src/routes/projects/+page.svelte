@@ -1,6 +1,12 @@
 <script lang="ts">
   const projects = [
     {
+      name: "Rex",
+      link: "https://github.com/TheWisePigeon/rex#readme",
+      desc: "Rex is a CLI tool that helps you quickly scaffold a new Express project following a pre designed architecture",
+      stack: "Rust"
+    },
+    {
       name: "SuperSecret",
       link: "https://www.supersecretapp.ink",
       desc: "SuperSecret helps you manage and share  your environment variables with your team, easily and securely",
