@@ -20,7 +20,7 @@
     </a>
   </div>
   <!-- Quick access -->
-  <div class=" absolute flex top-[80%] w-full justify-around" >
+  <div class=" lg:flex lg:absolute lg:top-[80%] lg:w-full lg:justify-around" >
     <button on:click={()=>{ window.location.href="/#about" }} href="#about" class=" bubble" >
       <h1 >ABOUT</h1>
     </button>
