@@ -21,20 +21,29 @@
   </div>
   <!-- Quick access -->
   <div class=" absolute flex top-[80%] w-full justify-around" >
-    <button href="#about" class=" bubble" >
-      <a href="#about">ABOUT</a>
+    <button on:click={()=>{ window.location.href="/#about" }} href="#about" class=" bubble" >
+      <h1 >ABOUT</h1>
     </button>
-    <button class=" bubble" >
-      <a href="#resume">RESUME</a>
+    <button on:click={()=>{ window.location.href="/#resume" }} class=" bubble" >
+      <h1 >RESUME</h1>
     </button>
-    <button class=" bubble" >
-      <a href="#projects">PROJECTS</a>
+    <button on:click={()=>{ window.location.href="/#projects" }} class=" bubble" >
+      <h1 >PROJECTS</h1>
     </button>
-    <button class=" bubble" >
-      <a href="#experience">EXPERIENCE</a>
+    <button on:click={()=>{ window.location.href="/#experience" }} class=" bubble" >
+      <h1 >EXPERIENCE</h1>
     </button>
   </div>
 </div>
-<div class=" section" >
+<div class=" section" id="about" >
+
+</div>
+<div class=" section" id="resume" >
+
+</div>
+<div class=" section" id="projects" >
+
+</div>
+<div class=" section" id="experience" >
 
 </div>
