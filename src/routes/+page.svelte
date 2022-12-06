@@ -35,15 +35,29 @@
     </button>
   </div>
 </div>
-<div class=" section" id="about" >
 
+<!-- About -->
+<div class=" section text-white text-2xl space-y-3" id="about" >
+  <div class=" relative bottom-[250px]" >
+    <h1 class=" text-3xl" >Who am I?</h1>
+  </div>
+  <h1>I'm a Junior Software Developer, technical writer and OSS lover, from Lome-TOGO.</h1>
+  <h1>Focusing on building performant and reliable services to deliver the best experience possible to users</h1>
+  <h1>In my spare time I'm mostly reading, writing, working on personal projects or playing video games</h1>
+  <h1>Oh, did I mention I like pigeons a lot?</h1>
 </div>
+
+<!-- Resume -->
 <div class=" section" id="resume" >
 
 </div>
+
+<!-- Projects -->
 <div class=" section" id="projects" >
 
 </div>
+
+<!-- Experience -->
 <div class=" section" id="experience" >
 
 </div>
