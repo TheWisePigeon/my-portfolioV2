@@ -8,6 +8,7 @@ body{
     -ms-overflow-style: none;  /* IE and Edge */
     scrollbar-width: none;  /* Firefox */
     @apply bg-no-repeat bg-cover font-mono;
+    
 }
 
 body::-webkit-scrollbar {
