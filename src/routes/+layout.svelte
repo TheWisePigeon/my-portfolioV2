@@ -2,4 +2,7 @@
   import "../app.css";
 </script>
 
-<slot />
+<main style="background-image: url('ffflux.svg');" class=" bg-no-repeat bg-cover">
+  <slot />
+  
+</main>

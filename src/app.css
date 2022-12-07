@@ -4,7 +4,7 @@
 
 
 body{
-    background-image: url('ffflux.svg');
+    /* background-image: url('ffflux.svg'); */
     -ms-overflow-style: none;  /* IE and Edge */
     scrollbar-width: none;  /* Firefox */
     @apply bg-no-repeat bg-cover font-mono;
