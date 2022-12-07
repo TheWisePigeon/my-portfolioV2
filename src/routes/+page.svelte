@@ -38,7 +38,7 @@
 
 <!-- About -->
 <div class=" section text-white text-2xl space-y-3" id="about" >
-  <div class=" relative bottom-[250px]" >
+  <div class=" relative bottom-[100px]" >
     <h1 class=" text-3xl" >Who am I?</h1>
   </div>
   <div class=" rounded-full w-40 h-40 bg-cover bg-no-repeat bg-center bg-[url('pic.jfif')] hover:bg-[url('me.JPG')]" >
