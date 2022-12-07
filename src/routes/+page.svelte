@@ -41,7 +41,7 @@
   <div class=" relative bottom-[250px]" >
     <h1 class=" text-3xl" >Who am I?</h1>
   </div>
-  <div class=" rounded-full w-40 h-40 bg-cover bg-no-repeat bg-center bg-[url('me.JPG')] hover:bg-[url('pic.jfif')]" >
+  <div class=" rounded-full w-40 h-40 bg-cover bg-no-repeat bg-center bg-[url('pic.jfif')] hover:bg-[url('me.JPG')]" >
 
   </div>
   <h1>I'm a Junior Software Developer, technical writer and OSS lover, from Lome-TOGO.</h1>
