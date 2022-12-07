@@ -27,3 +27,13 @@ body::-webkit-scrollbar {
 .contact-link{
     @apply hover:scale-105 hover:-translate-y-1 transition-all;
 }
+
+.profile-pic{
+    background-image: url('pic.jfif');
+    @apply bg-cover bg-no-repeat bg-center;
+}
+
+.profile-pic:hover{
+    background-image: url('me.JPG');
+    @apply bg-cover bg-no-repeat bg-center;
+}

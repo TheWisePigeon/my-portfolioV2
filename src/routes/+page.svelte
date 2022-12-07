@@ -41,8 +41,12 @@
   <div class=" relative bottom-[250px]" >
     <h1 class=" text-3xl" >Who am I?</h1>
   </div>
+  <div class=" rounded-full w-40 h-40 profile-pic" >
+
+  </div>
   <h1>I'm a Junior Software Developer, technical writer and OSS lover, from Lome-TOGO.</h1>
-  <h1>Focusing on building performant and reliable services to deliver the best experience possible to users</h1>
+  <h1>Working hard to be the best developer I can possibly be.</h1>
+  <h1>My focus is on building performant and reliable services to deliver the best experience possible to users</h1>
   <h1>In my spare time I'm mostly reading, writing, working on personal projects or playing video games</h1>
   <h1>Oh, did I mention I like pigeons a lot?</h1>
 </div>
