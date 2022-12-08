@@ -4,7 +4,15 @@
       date: "05/2022 - Now",
       company:"Backend Developer @Axetag SAS",
       company_link:"https://www.linkedin.com/company/axetag-sas/mycompany/",
-      description:`Developed, deployed and maintained REST APIs. Trained and deployed an experimental machine learning model`
+      description:`Developed, deployed and maintained REST APIs. Trained and deployed an experimental machine learning model`,
+      stack:"Python • Flask"
+    },
+    {
+      date: "03/2022 - 05/2022",
+      company:"Web developer Intern @A2B Tech",
+      company_link:"https://github.com/A2B-TECH",
+      description:`Worked on an E-Commerce web application`,
+      stack:"TypeScript • Express • NextJS"
     }
   ]
 </script>
@@ -105,13 +113,13 @@
 <div class=" m-auto flex flex-col w-[450px]">
   <h1 class=" text-white font-bold">Work experience</h1>
   {#each works as work}  
-    <div class="">
+    <div class="my-3">
       <div class=" w-full flex justify-between" >
         <h1 class=" text-slate-400" >{work.date}</h1>
         <a href={work.company_link} target="_blank" class=" hover:underline text-white">{work.company} ➚</a>
       </div>
       <p class=" text-gray-400" >{work.description}</p>
-      <div></div>
+      <div class=" text-slate-500 font-bold" > {work.stack} </div>
     </div>
   {/each}
 </div>
