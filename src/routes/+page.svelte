@@ -127,4 +127,5 @@
 <!-- Projects -->
 <div class=" m-auto flex flex-col w-[450px]" >
   <h1 class=" text-white font-bold" >Projects</h1>
-</div>
+  
+</div>  
