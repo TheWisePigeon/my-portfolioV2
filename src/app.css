@@ -1,40 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300;1,400&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 
 body{
-    /* background-image: url('ffflux.svg'); */
     -ms-overflow-style: none;  /* IE and Edge */
     scrollbar-width: none;  /* Firefox */
-    @apply bg-no-repeat bg-cover font-mono;
-    
+    font-family: 'Poppins', sans-serif;
 }
 
 body::-webkit-scrollbar {
     display: none;
-}
-
-.section{
-    @apply lg:flex lg:h-screen lg:items-center lg:justify-center lg:flex-col;
-}
-
-.bubble{
-    @apply 
-    rounded-full bg-blue-500 shadow-lg bg-gradient-to-t from-rose-400 via-fuchsia-500 to-indigo-500 
-    w-28 h-28 font-bold text-white hover:scale-105 hover:-translate-y-1 transition-all;
-}
-
-.contact-link{
-    @apply hover:scale-105 hover:-translate-y-1 transition-all;
-}
-
-.profile-pic{
-    background-image: url('pic.jfif');
-    @apply bg-cover bg-no-repeat bg-center;
-}
-
-.profile-pic:hover{
-    background-image: url('me.JPG');
-    @apply bg-cover bg-no-repeat bg-center;
 }
