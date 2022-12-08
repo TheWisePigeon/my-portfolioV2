@@ -1,18 +1,50 @@
 <script lang="ts" >
   const works = [
     {
-      date: "05/2022 - Now",
+      date: "06/2022 - Now",
       company:"Backend Developer @Axetag SAS",
       company_link:"https://www.linkedin.com/company/axetag-sas/mycompany/",
       description:`Developed, deployed and maintained REST APIs. Trained and deployed an experimental machine learning model`,
       stack:"Python • Flask"
     },
     {
-      date: "03/2022 - 05/2022",
+      date: "04/2022 - 06/2022",
       company:"Web developer Intern @A2B Tech",
       company_link:"https://github.com/A2B-TECH",
       description:`Worked on an E-Commerce web application`,
       stack:"TypeScript • Express • NextJS"
+    }
+  ]
+  const projects = [
+    {
+      name:"Rex",
+      description:"Rex is a  CLI tool to quicly bootstrap Express projects, with TypeScript support. Rex forces the user to use a clean architecture and offer some additional utilities to help speed up development",
+      stack:"Rust",
+      link:"https://github.com/TheWisePigeon/rex#readme"
+    },
+    {
+      name:"SuperSecret",
+      description:"Break free from the burden of managing and sharing your secrets through .env files. SuperSecret brings an easy and secure solution",
+      stack:"TypeScript • NodeJS • Express • Svelte",
+      link:"https://supersecretapp.ink"
+    },
+    {
+      name:"YOOT(In development)",
+      description:"YOOT is a simplistic CMS designed for developers and content based business runners",
+      stack:"TypeScript • Svelte • Tauri",
+      link:"https://yoot.site"
+    },
+    {
+      name:"WValidator",
+      description:"Validator is a form validation library",
+      stack:"TypeScript",
+      link:"http://wvalidator.vercel.app/"
+    },
+    {
+      name:"Loland",
+      description:"Just a website to post memes",
+      stack:"TypeScript • Firebase • Svelte",
+      link:"https://loland.lol"
     }
   ]
 </script>
@@ -127,5 +159,11 @@
 <!-- Projects -->
 <div class=" m-auto flex flex-col w-[450px]" >
   <h1 class=" text-white font-bold" >Projects</h1>
-  
-</div>  
+  {#each projects as project}
+    <div class="w-full cursor-pointer my-2" >
+      <a href={project.link} target="_blank" class=" hover:underline text-white font-bold" >{project.name} ➚</a>
+      <h1 class=" text-gray-400" >{project.description}</h1>
+      <h1 class=" text-slate-500" >{project.stack}</h1>
+    </div>
+  {/each}
+</div>
