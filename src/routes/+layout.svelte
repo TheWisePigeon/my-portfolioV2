@@ -2,9 +2,9 @@
   import "../app.css";
 </script>
 
-<main class=" bg-slate-900 h-screen ">
+<main class="h-screen bg-slate-900">
   <div
-    class=" h-96 w-32 absolute bottom-0 flex flex-col gap-10  items-center justify-end"
+    class=" hidden h-96 w-32 absolute bottom-0 lg:flex flex-col gap-10  items-center justify-end"
   >
     <a href="https://github.com/TheWisePigeon" target="_blank">
       <svg
