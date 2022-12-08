@@ -8,8 +8,18 @@ body{
     -ms-overflow-style: none;  /* IE and Edge */
     scrollbar-width: none;  /* Firefox */
     font-family: 'Poppins', sans-serif;
+    @apply bg-slate-900;
 }
 
 body::-webkit-scrollbar {
+    display: none;
+}
+
+.content{
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none; 
+}
+
+.content::-webkit-scrollbar {
     display: none;
 }
