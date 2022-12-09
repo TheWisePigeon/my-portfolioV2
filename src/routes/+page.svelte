@@ -167,3 +167,5 @@
     </div>
   {/each}
 </div>
+
+<!-- Blog posts -->
