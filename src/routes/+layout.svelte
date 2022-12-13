@@ -71,7 +71,7 @@
   <div class=" h-24 w-[0.0125rem] bg-slate-400" />
 </div>
 <div
-  class="w-[800px] h-screen overflow-y-scroll mx-auto space-y-10 content shadow-2xl shadow-violet-500"
+  class="w-[800px] lg:h-screen text-xl overflow-y-scroll mx-auto space-y-10 content shadow-2xl  lg:shadow-violet-500"
 >
   <slot />
 </div>
