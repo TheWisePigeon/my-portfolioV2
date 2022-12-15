@@ -18,7 +18,7 @@
   const projects = [
     {
       name:"Rex",
-      description:"Rex is a  CLI tool to quicly bootstrap Express projects, with TypeScript support. Rex forces the user to use a clean architecture and offer some additional utilities to help speed up development",
+      description:"Rex is a  CLI tool to quickly bootstrap Express projects, with TypeScript support. Rex forces the user to use a clean architecture and offer some additional utilities to help speed up development",
       stack:"Rust",
       link:"https://github.com/TheWisePigeon/rex#readme"
     },
@@ -53,11 +53,11 @@
 <div class=" m-auto text-gray-400 pt-20 w-[450px]">
   <div class=" flex gap-10 items-center">
     <div
-      class=" h-28 w-28 rounded-full border-gray-200 border bg-transparent bg-[url('/images/flowers-designify.png')] bg-no-repeat bg-contain"
+      class=" h-20 w-20 rounded-full border-gray-200 border bg-transparent bg-[url('/images/flowers-designify.png')] bg-no-repeat bg-contain"
     />
-    <div class=" flex flex-col gap-1">
-      <h1 class=" font-bold text-xl text-gray-100">Joseph DOGBEVI</h1>
-      <h1 class="">Results-driven Software developer</h1>
+    <div class="text-[1rem] flex flex-col  gap-1">
+      <h1 class=" font-bold  text-gray-100">Joseph DOGBEVI</h1>
+      <h1 class=" text-[1rem]">Results-driven Software developer</h1>
       <div class="flex gap-10">
         <a href="https://github.com/TheWisePigeon" target="_blank">
           <svg
@@ -131,9 +131,9 @@
 </div>
 
 <!-- About -->
-<div class=" m-auto flex flex-col w-[450px] ">
+<div class=" m-auto flex flex-col w-[450px] text-[1rem]">
   <h1 class=" text-white font-bold">About</h1>
-  <p class=" text-clip text-gray-400">
+  <p class=" text-clip text-gray-400 text-[1rem]">
     Hi! I'm Joseph, also knows as TheWisePigeon. I enjoy building things on the
     web and beyond. Focused on crafting performant and reliable services in
     order to deliver the best experience possible to end users. <br />
@@ -142,7 +142,7 @@
 </div>
 
 <!-- Resume -->
-<div class=" m-auto flex flex-col w-[450px]">
+<div class="text-[1rem] m-auto flex flex-col w-[450px]">
   <h1 class=" text-white font-bold">Work experience</h1>
   {#each works as work}  
     <div class="my-3">
@@ -157,7 +157,7 @@
 </div>
 
 <!-- Projects -->
-<div class=" m-auto flex flex-col w-[450px]" >
+<div class="text-[1rem] m-auto flex flex-col w-[450px]" >
   <h1 class=" text-white font-bold" >Projects</h1>
   {#each projects as project}
     <div class="w-full cursor-pointer my-2" >
